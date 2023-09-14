@@ -134,6 +134,11 @@ main {
     position: relative;
     isolation: isolate;
     overflow: hidden;
+    cursor: pointer;
+}
+
+.pokemon:active {
+    transform: scale(.98);
 }
 
 .pokemon-id-back {
